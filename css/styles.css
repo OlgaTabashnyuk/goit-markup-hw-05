@@ -340,6 +340,37 @@ padding: 0 15px;
     justify-content: center;
 }
 
+.do-list-img {
+    position: relative;
+}
+
+
+/* ===========ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ====== */
+
+.do-list .description {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#fff;
+    background: rgba(47, 48, 58, 0.8);
+   
+
+}
+
+
 .what-we-do-container .item + .item {
     margin-left: 30px;
 }
@@ -646,6 +677,31 @@ padding: 0 15px;
     padding-bottom: 94px;
     justify-content: center;
  }
+
+.project-overlay {
+    display: flex;
+    position: relative;
+}
+.overlay-text {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 63px 24px;
+    opacity: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    background-color: rgba(33, 150, 243, 0.9);
+}
+.overlay-text:hover {
+    opacity: 1;
+}
 
  .pic {
     display: block;
