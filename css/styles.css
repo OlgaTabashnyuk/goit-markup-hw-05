@@ -191,12 +191,6 @@ padding: 0 15px;
     fill: var(--accent-color);
 }
 
-/* .address .item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} */
 
 /*============ END NAVIGATION============*/
 
@@ -293,22 +287,27 @@ padding: 0 15px;
 }
 
   .close-btn {
+    display: flex;
     position: absolute;
     top: 8px;
     right: 8px;
-    padding: 0;
-    background-color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-      }
-  .close-btn-icon {
     width: 30px;
     height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    cursor: pointer;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
+ }
+  .close-btn-icon {
+    width: 18px;
+    height: 18px;
   }
 
-
+  .close-btn-icon:hover {
+      fill: var(--accent-color)
+  }
 
 /*================ END HERO ===========*/
 
@@ -588,9 +587,6 @@ padding: 0 15px;
 }
 
 
-
-
-
 /*======== END OUR TEAM=======*/
 
 
@@ -860,8 +856,6 @@ padding: 0 15px;
 /* ============  END OUR PROJECTS  ============*/ 
 
 
-
-
 /* ============  FOOTER  ============*/
 
 
@@ -907,9 +901,6 @@ padding: 0 15px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-/* .footer-address {
-    display: flex;
-} */
 
 .footer-address-item  li {
     display: block;
